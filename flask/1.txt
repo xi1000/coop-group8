@@ -1,0 +1,9 @@
+app.config.update(
+    MONGO_URI='mongodb://flas:123456@192.168.100.144:27021/flas',
+   
+)
+mongo = PyMongo(app)
+
+mongo = PyMongo(app, uri="mongodb://flask:123456@192.168.100.144:27021/flask") 
+
+db.createUser({user:"flas",pwd:"123456",roles:[{role:'dbOwner',db:'flas'}]})

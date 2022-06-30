@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "json": "^11.0.0",
+    "pandas": "^0.0.3"
+  }
+}
